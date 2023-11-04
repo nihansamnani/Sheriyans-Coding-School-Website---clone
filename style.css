@@ -106,7 +106,7 @@ html, body{
 }
 .course1{
     width: 20rem;
-    min-height: 28rem;
+    min-height: 24rem;
     background-color: white;
     border-radius: 1.5rem;
     display: flex;
@@ -115,26 +115,17 @@ html, body{
     flex-direction: column;
     overflow: hidden;
 }
-.course-1{
-    background: url(https://ik.imagekit.io/sheryians/courses_gif/Mastering_the_Art_of_Resume-RESUMECOURSEPOSTER_NK6hP8IP8.jpg);
-    background-size: cover;
-}
-.courseimg-1{
-    height: 45%;
+.courseimg-1 img{
+    height: 100%;
     width: 100%;
-    background: url(https://ik.imagekit.io/sheryians/courses_gif/Mastering_the_Art_of_Resume-RESUMECOURSEPOSTER_NK6hP8IP8.jpg);
-    background-size: cover;
 }
-.courseimg-2{
-    height: 45%;
+.courseimg-2 img{
+    height: 100%;
     width: 100%;
-    background: url(https://ik.imagekit.io/sheryians/courses_gif/Front-End_Domination__Create_Anything_with_Code-FRONTENDTHUBNAIL_Wf8WqcNJx.jpg);
-    background-size: cover;
 }
 .coursestext{
     height: 55%;
     width: 100%;
-    /* background-color: rgb(146, 146, 146); */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -208,7 +199,6 @@ html, body{
     display: flex;
     gap: 2rem;
     flex-direction: column;
-    background-color: red;
 }
 .page4text p{
     font-size: 3rem;
@@ -255,6 +245,82 @@ html, body{
     font-weight: 600;
     color: #afb2bb;;
     line-height: 9.2vh;
+}
+.page6{
+    height: 60vh;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+.page6up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2.9rem;
+    font-weight: 700;
+    letter-spacing: -.1rem;
+}
+.page6down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.6rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.sociallinks{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+.sl{
+    padding: 1rem 1.3rem;
+    background-color: rgb(248, 248, 248);
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.sl svg{
+    width: 1.3rem;
+}
+.page6up img{
+    width: 5rem;
+}
+.footer{margin-top: 4rem;
+    padding-top: 4rem;
+    height: 60vh;
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.footer-d{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: .6rem;
+    flex-direction: column;
+}
+.footer-d a{
+    color: #ececec;
+    text-decoration: none;
+    font-weight: 500;
+}
+#contact{
+    font-size: 1.3rem;
+    font-weight: 700;
+    cursor: default;
 }
 @media screen and (max-width:480px){
     .btn1{
@@ -312,9 +378,22 @@ html, body{
     }
     .course1{
         width: 20rem;
-        height: 25rem;
+        min-height: 24rem;
         background-color: white;
         border-radius: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .courseimg-1 img{
+        height: 100%;
+        width: 100%;
+    }
+    .courseimg-2 img{
+        height: 100%;
+        width: 100%;
     }
     .page3{
         padding: 0 5vw;
@@ -388,5 +467,84 @@ html, body{
         font-weight: 600;
         color: #afb2bb;;
         line-height: 7.7vh;
+    }
+    .page6{
+        padding: 2rem 5vw;
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1.6rem;
+    }
+    .page6up{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1.9rem;
+        font-weight: 700;
+        letter-spacing: -.1rem;
+    }
+    .page6down{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1.6rem;
+        font-size: .9rem;
+        text-align: center;
+        font-weight: 700;
+    }
+    .sociallinks{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        /* background-color: blue; */
+    }
+    .sl{
+        padding: .9rem 1rem;
+        background-color: rgb(248, 248, 248);
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+    .sl svg{
+        width: 1rem;
+    }
+    .page6up img{
+        width: 5rem;
+    }
+    .footer{
+        padding: 2rem 6vw;
+        margin-top: 4rem;
+        padding-top: 4rem;
+        min-height: 100vh;
+        width: 100%;
+        background-color: #222222;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer-d{
+        width: 100%;
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+        gap: .6rem;
+        flex-direction: column;
+    }
+    .footer-d a{
+        color: #ececec;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    #contact{
+        font-size: 1.3rem;
+        font-weight: 700;
+        cursor: default;
     }
 }
