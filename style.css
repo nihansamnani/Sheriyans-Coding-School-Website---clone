@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #ececec;
+}
+.btn1{
+    padding: 1rem 2.2rem;
+    background-color: #10a37f;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: white;
+    border-radius: .3rem;
+}
+.navbar{
+    padding: 0 5vw;
+    height: 12vh;
+    width:100%;
+    position: fixed;
+    background-color: #ececec;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: .7rem;
+}
+.logoleft img{
+    padding-right: .7rem;
+    width: 2.8rem;
+    border-right: 1px solid black;
+}
+.logoright{
+    width: 60%;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.menu img{
+    width: 2rem;
+}
+
+.page1{
+    padding: 0 5vw;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.herotext{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3rem;
+}
+.herotext p{
+    width: 60%;
+    font-size: 4.5rem;
+    margin-top: 15vh;
+    font-weight: 700;
+    line-height: 12.2vh;
+    letter-spacing: -.15rem;
+}
+.herotext span{
+    color: #10a37f;;
+}
+.herovideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.herovideo video{
+    width: 100%;
+}
+.page2{
+    padding: 5rem 5vw;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.page2text{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.page2courses{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 1.5rem;
+}
+.course1{
+    width: 20rem;
+    min-height: 28rem;
+    background-color: white;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+}
+.course-1{
+    background: url(https://ik.imagekit.io/sheryians/courses_gif/Mastering_the_Art_of_Resume-RESUMECOURSEPOSTER_NK6hP8IP8.jpg);
+    background-size: cover;
+}
+.courseimg-1{
+    height: 45%;
+    width: 100%;
+    background: url(https://ik.imagekit.io/sheryians/courses_gif/Mastering_the_Art_of_Resume-RESUMECOURSEPOSTER_NK6hP8IP8.jpg);
+    background-size: cover;
+}
+.courseimg-2{
+    height: 45%;
+    width: 100%;
+    background: url(https://ik.imagekit.io/sheryians/courses_gif/Front-End_Domination__Create_Anything_with_Code-FRONTENDTHUBNAIL_Wf8WqcNJx.jpg);
+    background-size: cover;
+}
+.coursestext{
+    height: 55%;
+    width: 100%;
+    /* background-color: rgb(146, 146, 146); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.coursestextup{
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+.ctu-p1{
+    /* background-color: blue; */
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.ctu-p2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:.3rem;
+    font-weight: 600;
+    font-size: .68rem;
+
+}
+.tags{
+    width: fit-content;
+    background-color: #ececec;
+    padding: .4rem .8rem;
+    border-radius: .4rem;
+}
+.coursestextdown{
+    width: 100%;    
+    padding: 1rem 1.5rem;
+    background-color: #10a37f;;
+    font-size: .8rem;
+    font-weight: 600;
+    color: white;
+}
+.ctdbtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.page3{
+    padding: 0 5vw;
+    height: 60vh;
+    width: 100%;
+    /* background-color: ; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.page3 p{
+    width: 50%;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: black;
+    line-height: 8.2vh;
+}
+.page4{
+    padding: 2rem 5vw;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #ececec;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    background-color: red;
+}
+.page4text p{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.page4projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.project{
+    overflow: hidden;
+    width: 20rem;
+    height: 25rem;
+    background-color: white;
+}
+.project video{
+    height: 25rem;
+    width: 20rem;
+}
+.page5{
+    height: 100vh;
+    width: 100%;
+    padding: 2rem 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.page5left{
+    width: 30%;
+    height: fit-content;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+#gmail{
+    color: #d2af7a;
+    font-size: 1rem;
+}
+.page5right{
+    width: 50%;
+    height: fit-content;
+    /* background-color: blue; */
+    font-size: 3rem;
+    font-weight: 600;
+    color: #afb2bb;;
+    line-height: 9.2vh;
+}
+@media screen and (max-width:480px){
+    .btn1{
+        width: 100%;
+        padding: 1rem 1.2rem;
+        border: none;
+        font-size: 1rem;
+        border-radius: .3rem;
+    }
+    .page1{
+        max-width: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .herotext{
+        gap: 2.2rem;
+        height: 70vh;
+    }
+    .herotext p{
+        width: 100%;
+        font-size: 2.5rem;
+        line-height: 7.9vh;
+    }
+    .herovideo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url(https://ik.imagekit.io/sheryians/iso_3_n1fw8fPbi.mp4?updatedAt=1697664185145);
+        background-size: contain;
+    }
+    .herovideo video{
+        width: 100%;
+    }
+    .page2{
+        padding-bottom: 1rem;
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    .page2text{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .page2courses{
+        margin-top: 2rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .course1{
+        width: 20rem;
+        height: 25rem;
+        background-color: white;
+        border-radius: 1.5rem;
+    }
+    .page3{
+        padding: 0 5vw;
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        /* background-color: red; */
+        justify-content: center;
+    }
+    .page3 p{
+        width: 90%;
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: black;
+        line-height: 5.09vh;
+        letter-spacing: -.3vw;
+    }
+    .page4{
+        padding: 2rem 5vw;
+        min-height: 100vh;
+        width: 100%;
+        background-color: #ececec;
+        display: flex;
+        gap: 2.5rem;
+        flex-direction: column;
+    }
+    .page4text p{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .page4projects{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .project{
+        width: 20rem;
+        height: 25rem;
+        background-color: white;
+    }
+    #project2{
+        margin-top: 0rem;
+    }
+    .page5{
+        height: 100vh;
+        width: 100%;
+        padding: 2rem 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .page5left{
+        width: 100%;
+        height: fit-content;
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+    #gmail{
+        color: #d2af7a;
+        font-size: 1rem;
+    }
+    .page5right{
+        width: 100%;
+        height: fit-content;
+        /* background-color: blue; */
+        font-size: 2rem;
+        font-weight: 600;
+        color: #afb2bb;;
+        line-height: 7.7vh;
+    }
+}
