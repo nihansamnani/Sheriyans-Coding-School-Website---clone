@@ -121,7 +121,7 @@ function page4ani(x) {
     }
   }
   
-  var x = window.matchMedia("(min-width: 480px)")
+  var x = window.matchMedia("(min-width: 600px)")
 
 
 navani();

@@ -529,7 +529,7 @@ html, body{
     font-weight: 700;
     cursor: default;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 480px){
     .switch {
         position: relative;
         display: inline-block;
