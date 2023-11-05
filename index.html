@@ -11,17 +11,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <div class="navbar">
         <div class="logo">
             <div class="logoleft">
                 <img src="https://www.sheryians.com/Sheryians_Logo_wFKd9VClG.png" alt="">
             </div>
             <div class="logoright">
-                Sheriyans Coding School
+                <p>Sheriyans Coding School</p>
             </div>
         </div>
+        
         <div class="menu">
-            <img src="menu-3-line.svg" alt="">
+            <body class="light">
+                <main>
+                  <div class="toggle-container">
+                    <i class="fa-solid fa-sun"></i>
+                    <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider round"></span>
+                    </label>
+                    <i class="fa-solid fa-moon"></i>
+                  </div>
+                </main>
+                <div class="darkCircle"></div>
+                <div class="lightCircle grow"></div>
+              </body>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"></path></svg>
         </div>
     </div>
     <div class="main">
@@ -113,7 +129,7 @@
                 <p id="gmail">sheryians.coding.school@gmail.com/</p>
             </div>
             <div class="page5right">
-                Talent is cheaper than salt, what seperates a talented individual from the successful one is a lot of hard-work,
+                <p>Talent is cheaper than salt, what seperates a talented individual from the successful one is a lot of hard-work,</p>
             </div>
         </div>
         <div class="page6">
@@ -167,6 +183,8 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
 </html>
