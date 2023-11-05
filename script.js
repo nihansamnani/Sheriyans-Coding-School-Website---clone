@@ -69,7 +69,7 @@ function page3ani(x) {
             scrollTrigger: {
             trigger: ".page3 p",
             scroller: ".main",
-            markers: true,
+            // markers: true,
             start: "top 60%",
             end: "top 30%",
             scrub: 3,
@@ -111,7 +111,7 @@ function page4ani(x) {
             scrollTrigger: {
             trigger: "#project2",
             scroller: ".main",
-            markers: true,
+            // markers: true,
             start: "top 60%",
             end: "top 30%",
             scrub: 5,
