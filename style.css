@@ -16,7 +16,7 @@ html, body{
   --background-color: #ececec;
   --background-color-2: #F4F7FD;
   --text-color: #000000;
-  --toggle-button: #635FC7;
+  --toggle-button: #10a37f;
   --toggle-background: #fff;
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
@@ -85,7 +85,7 @@ main {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #635FC7;
+  background-color: #10a37f;
   -webkit-transition: .4s;
   transition: .4s;
   background-color: var(--toggle-background);
@@ -157,7 +157,7 @@ input:checked + .slider:before {
   --background-color: #2B2C37;
   --background-color-2: #20212C;
   --text-color: #fff;
-  --toggle-button: #635FC7;
+  --toggle-button: #10a37f;
   --toggle-background: #fff;
   transition: background-color 0.3s ease-in-out 0.4s, color 0.7s ease-in-out;
 }
@@ -167,7 +167,7 @@ input:checked + .slider:before {
   --background-color-2: #F4F7FD;
   --text-color: #000000;
   --toggle-button: #fff;
-  --toggle-background: #635FC7;
+  --toggle-background: #10a37f;
   transition: background-color 0.3s ease-in-out 0.4s, color 0.7s ease-in-out;
 }
 
